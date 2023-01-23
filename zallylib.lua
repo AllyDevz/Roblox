@@ -20,61 +20,13 @@ local function CheckAd()
 	if getgenv then
 		if not getgenv()["IrisAd"] then
 			getgenv()["IrisAd"] = true;
-			NotificationTable.Notify("{ Iris }", "Thank you for using IrisNotify, consider donating! <b><font color=\"rgb(184,83,255)\">PayPal.me/IrisDev</font></b>", "rbxassetid://7258709020", {
+			NotificationTable.Notify("{ ZallyHub }", "Thank you for using ZallyHub", "rbxassetid://12252576006", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
 					Font = Enum.Font.SourceSansSemibold,
 				},
 
-				GradientSettings = {
-					GradientEnabled = false,
-					SolidColorEnabled = true,
-					SolidColor = Color3.fromRGB(124, 83, 240),
-					Retract = true
-				}
-			})
-			wait(.3)
-			NotificationTable.Notify("{ Iris }", "To remove this message add <b><font color=\"rgb(184,83,255)\">getgenv()[\"IrisAd\"] = true</font></b> to your script!", "rbxassetid://7258714296", {
-				Duration = 7,
-				TitleSettings = {
-					TextXAlignment = Enum.TextXAlignment.Center,
-					Font = Enum.Font.SourceSansSemibold,
-				},
-
-				GradientSettings = {
-					GradientEnabled = false,
-					SolidColorEnabled = true,
-					SolidColor = Color3.fromRGB(124, 83, 240),
-					Retract = true
-				}
-			})
-		end
-	else
-		if not _G["IrisAd"] then
-			_G["IrisAd"] = true;
-			NotificationTable.Notify("{ Iris }", "Thank you for using IrisNotify, consider donating! <b><font color=\"rgb(184,83,255)\">PayPal.me/IrisDev</font></b>", "rbxassetid://7258709020", {
-				Duration = 7,
-				TitleSettings = {
-					TextXAlignment = Enum.TextXAlignment.Center,
-					Font = Enum.Font.SourceSansSemibold,
-				},
-
-				GradientSettings = {
-					GradientEnabled = false,
-					SolidColorEnabled = true,
-					SolidColor = Color3.fromRGB(124, 83, 240),
-					Retract = true
-				}
-			})
-			wait(.3)
-			NotificationTable.Notify("{ Iris }", "To remove this message add <b><font color=\"rgb(184,83,255)\">_G[\"IrisAd\"] = true</font></b> to your script!", "rbxassetid://7258714296", {
-				Duration = 7,
-				TitleSettings = {
-					TextXAlignment = Enum.TextXAlignment.Center,
-					Font = Enum.Font.SourceSansSemibold,
-				},
-				
 				GradientSettings = {
 					GradientEnabled = false,
 					SolidColorEnabled = true,
